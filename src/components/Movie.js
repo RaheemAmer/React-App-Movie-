@@ -1,6 +1,5 @@
 import React from 'react';
 const IMG_API = "https://image.tmdb.org/t/p/w1280";
-// const IMG_API = " https://api.themoviedb.org/3/movie/{movie_id}/images?api_key=6964dab72cec99db329a3051b4a15c3f&language=en-US";
 
 
 const Movie = ({ title, poster_path, overview, release_date,
