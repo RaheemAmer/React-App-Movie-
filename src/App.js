@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState} from 'react';
 import Movie from './components/Movie';
-// https://api.themoviedb.org/3/search/company?api_key=6964dab72cec99db329a3051b4a15c3f&page=1
 
-const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=6964dab72cec99db329a3051b4a15c3f&page=1";
-const SEARCH_API = " https://api.themoviedb.org/3/search/movie?api_key=6964dab72cec99db329a3051b4a15c3f&language=en-US&page=1&include_adult=false";
+
+const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?";
+const SEARCH_API = " https://api.themoviedb.org/3/search/movie?";
 
 
 
